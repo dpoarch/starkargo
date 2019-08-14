@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout4"
+        android:paddingTop="5dp">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/ImgBtnLogout"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/logout" />
+        <ImageView
+            android:src="@drawable/logo_module"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="0.0dp"
+            android:scaleType="center"
+            android:adjustViewBounds="true"
+            android:paddingLeft="100dp" />
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/ImgBtnChangePwd"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/unlock" />
+    </RelativeLayout>
+    <TextView
+        android:text="Administrative"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:textStyle="bold" />
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:stretchColumns="0">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="Receive Package"
+                android:layout_column="0"
+                android:id="@+id/btnReceivePackage"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:textAllCaps="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="0.0dp"
+                android:height="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="Load Container"
+                android:layout_column="0"
+                android:id="@+id/btnLoadContainer"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:textAllCaps="true"
+                android:height="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="Unload Container"
+                android:layout_column="0"
+                android:id="@+id/btnUnloadContainer"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:textAllCaps="true"
+                android:height="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="Deliver Package"
+                android:layout_column="0"
+                android:id="@+id/btnDeliverPackage"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:textAllCaps="true"
+                android:height="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="Lookup Package"
+                android:layout_column="0"
+                android:id="@+id/btnLookupPackage"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:textAllCaps="true"
+                android:height="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="USERS"
+                android:layout_column="0"
+                android:id="@+id/btnUsers"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:height="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="PENDING TRANSACTION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPending"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:height="15dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

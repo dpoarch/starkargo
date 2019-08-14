@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">StarKargo</string>
+    <string-array name="role_array">
+      <item>Administrative</item>
+      <item>Warehouse</item>
+      <item>Fullfillment</item>
+    </string-array>
+    <string-array name="agent_array">
+      <item>None</item>
+    </string-array>
+    <string-array name="location_array">
+    </string-array>
+    <string-array name="lot_array">
+    </string-array>
+</resources>

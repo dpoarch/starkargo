@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout4"
+        android:paddingTop="5dp">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/ImgBtnLogout"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/logout" />
+        <ImageView
+            android:src="@drawable/logo_module"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="0.0dp"
+            android:scaleType="center"
+            android:adjustViewBounds="true"
+            android:paddingLeft="100dp" />
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/ImgBtnChangePwd"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/unlock" />
+    </RelativeLayout>
+    <TextView
+        android:text="Fulfillment"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold" />
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:stretchColumns="0">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="Unload Container"
+                android:layout_column="0"
+                android:id="@+id/btnUnloadContainer"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:textAllCaps="true"
+                android:height="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="Deliver Package"
+                android:layout_column="0"
+                android:id="@+id/btnDeliverPackage"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:textAllCaps="true"
+                android:height="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="Lookup Package"
+                android:layout_column="0"
+                android:id="@+id/btnLookupPackage"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:textAllCaps="true"
+                android:height="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:text="PENDING TRANSACTION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPending"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:textAllCaps="true"
+                android:height="20dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout4"
+        android:paddingTop="5dp">
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/black"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" />
+        <ImageView
+            android:src="@drawable/logo_module"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="0.0dp"
+            android:scaleType="center"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true" />
+    </RelativeLayout>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        android:background="@android:color/white"
+        android:paddingTop="5dp">
+        <TableRow>
+            <TextView
+                android:id="@+id/Text1"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:text="Module"
+                android:layout_marginRight="0.0dp"
+                android:layout_width="122.5dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Text2"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:text="# Packages"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Text3"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:text="Action"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/txtRecPack"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:text="Receive Packages"
+                android:layout_marginRight="0.0dp"
+                android:layout_width="122.5dp"
+                android:layout_marginBottom="5dp" />
+            <TextView
+                android:id="@+id/txtRecCount"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <Button
+                android:text="Send"
+                android:layout_column="2"
+                android:id="@+id/btnReceiveComplete"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_height="40dp" />
+        </TableRow>
+        <TableRow
+            android:layout_height="70.0dp"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/txtLoadPack"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:text="Load Container"
+                android:layout_marginRight="0.0dp"
+                android:layout_width="122.5dp"
+                android:layout_marginBottom="5dp" />
+            <TextView
+                android:id="@+id/txtLoadCount"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <Button
+                android:text="Send"
+                android:layout_column="2"
+                android:id="@+id/btnLoadComplete"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_height="40dp" />
+        </TableRow>
+        <TableRow
+            android:layout_height="70.0dp"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/txtUnLoadPack"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:text="UnLoad Container"
+                android:layout_marginRight="0.0dp"
+                android:layout_width="122.5dp"
+                android:layout_marginBottom="5dp" />
+            <TextView
+                android:id="@+id/txtUnLoadCount"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <Button
+                android:text="Send"
+                android:layout_column="2"
+                android:id="@+id/btnUnLoadComplete"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_height="40dp" />
+        </TableRow>
+        <TableRow
+            android:layout_height="70.0dp"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/txtDeliver"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:text="Delivery"
+                android:layout_marginRight="0.0dp"
+                android:layout_width="122.5dp"
+                android:layout_marginBottom="5dp" />
+            <TextView
+                android:id="@+id/txtDeliverCount"
+                android:padding="3dip"
+                android:textSize="18dip"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <Button
+                android:text="Send"
+                android:layout_column="2"
+                android:id="@+id/btnDeliverComplete"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_height="40dp" />
+        </TableRow>
+        <View
+            android:id="@+id/emptySpace"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0"
+            android:layout_marginTop="0.0dp"
+            android:layout_marginBottom="0.0dp" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout2"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:text="Done"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/btnDone"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+   <RelativeLayout
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/relativeLayout4"
+      android:paddingTop="5dp">
+      <TextView
+          android:text="Create User"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView1"
+          android:textColor="@android:color/black"
+          android:gravity="left"
+          android:paddingBottom="10dp"
+          android:paddingTop="10dp"
+          android:textStyle="bold"
+          android:layout_centerHorizontal="true" />
+      <ImageView
+          android:src="@drawable/logo_module"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/imageView1"
+          android:layout_marginTop="0.0dp"
+          android:scaleType="center"
+          android:layout_alignParentRight="true"
+          android:adjustViewBounds="true" />
+    </RelativeLayout>
+    <TextView
+        android:text="First Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/txtFirstName"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:text="Last Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/txtLastName"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/txtEmail"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:text="Role"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/black" />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="42.5dp"
+        android:id="@+id/spinRoleID"
+        android:layout_marginBottom="0.0dp" />
+    <TextView
+        android:text="Warehouse Location ID"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/black" />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="42.5dp"
+        android:id="@+id/spinLocationID" />
+    <TextView
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/txtPassword"
+        android:textColor="@android:color/black" />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout3"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+        <Button
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/btnCancel"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white" />
+        <Button
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/btnSave"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</LinearLayout>
